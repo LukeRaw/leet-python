@@ -35,4 +35,5 @@ d = {}
 for l in s:
     if l not in d: d[l] = 1
     else: d[l] += 1
-
+    
+print(d)
